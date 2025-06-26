@@ -1,0 +1,60 @@
+@import 'normalize.css';
+@import url('./proximos-jogos.css');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* EDITAR IMAGENS */
+
+
+.header{
+    position: relative;
+    width: 100vw;
+}
+
+
+.barra-laranja {
+    background-color: #E56204;
+    height: 100px;
+}
+
+
+.barra-preta{
+    background-color: #000;
+    height: 50px;
+    position: relative;
+}
+
+.logo-centro{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.logo{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.btn-menu {
+    background-color: transparent;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

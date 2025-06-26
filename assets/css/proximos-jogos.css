@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+.proximos__jogos {
+    background-color: #f7f1ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 30px;
+    font-family: "Alfa Slab One", serif;
+}
+
+.imagem__jogo-contra {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.titulo__proximos-jogos {
+    color: #E56204;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.duelo {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+
+.logo__duelo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.estadio,
+.data-hora {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
