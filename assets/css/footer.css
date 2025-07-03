@@ -1,0 +1,10 @@
+.rodape{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: #E56204;
+}

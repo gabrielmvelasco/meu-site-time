@@ -1,0 +1,7 @@
+.classificacao{
+    background-color: #f7f1ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}

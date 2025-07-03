@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 1rem;
+        }
+
+        main {
+            margin-top: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #4CAF50;
+            font-size: 1.4rem;
+        }
+
+        .sobre {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            line-height: 1.6;
+        }
+
+        .projetos {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Smartphones maiores (390px+) */
+        @media (min-width: 390px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Tablets pequenos (600px+) */
+        @media (min-width: 600px) {
+            body {
+                max-width: 540px;
+                margin: 0 auto;
+            }
+        }
+
+        /* Tablets/Médios (768px+) */
+        @media (min-width: 768px) {
+            body {
+                max-width: 700px;
+            }
+            .projetos {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* Desktop padrão (1024px+) */
+        @media (min-width: 1024px) {
+            body {
+                max-width: 900px;
+            }
+            .projetos {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gabriel Marins</h1>
+        <p>Desenvolvedor Front-End & Designer</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <div class="sobre">
+                <p>Sou um desenvolvedor apaixonado por criar sites modernos, responsivos e funcionais. Gosto de trabalhar com design limpo e boas práticas de código.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Meus Projetos</h2>
+            <div class="projetos">
+                <div class="card">
+                    <h3>Projeto 1</h3>
+                    <p>Site institucional desenvolvido com HTML, CSS e responsividade completa.</p>
+                </div>
+                <div class="card">
+                    <h3>Projeto 2</h3>
+                    <p>Landing page otimizada para mobile com foco em performance e SEO.</p>
+                </div>
+                <div class="card">
+                    <h3>Projeto 3</h3>
+                    <p>Plataforma de portfólio pessoal com grid adaptável e layout moderno.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
